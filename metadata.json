@@ -1,0 +1,7 @@
+{
+  "name": "Hái Táo Tri Thức - Tin học THPT",
+  "description": "Một ứng dụng web giáo dục giúp học sinh ôn tập kiến thức Tin học thông qua trò chơi hái táo và giải mã từ khóa bí mật.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

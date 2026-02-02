@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Grade } from "../types";
 
-const getAI = () => new GoogleGenAI({ apiKey: process.env.API_KEY });
+const getAI = () => new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 // Sử dụng mô hình lite hoặc flash mới nhất để tiết kiệm quota và tăng tốc độ
 const GEMINI_MODEL = 'gemini-3-flash-preview';
 
